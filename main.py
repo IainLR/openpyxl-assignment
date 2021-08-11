@@ -30,7 +30,7 @@ def summary_rolling_data(file):
                         break
     return resut_dictionary
 
-def VOC_rolling_data(file):
+def voc_rolling_data(file):
     file_year_file_month = get_year_from_filename(file)
 
     workbook = openpyxl.load_workbook(file)
@@ -77,7 +77,7 @@ def get_year_from_filename(file):
 try:
     results = summary_rolling_data(file)
 
-    VOC_results = VOC_rolling_data(file)
+    voc_results = voc_rolling_data(file)
 
     logging.info(datetime.datetime.now())
     logging.info('retrieving data from method')
@@ -88,6 +88,6 @@ try:
     logging.info('DSAT: ' + str(results['DSAT'] * 100) + "%")
     logging.info('CSAT: ' + str(results['CSAT'] * 100) + "%")
     logging.info('-----------------------------------------------')
-    logging.info('VOC Dictionary: ' + str(VOC_results))
+    logging.info('VOC Dictionary: ' + str(voc_results))
 except:
     logging.error('Something has gone wrong')
