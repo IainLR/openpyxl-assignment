@@ -1,0 +1,57 @@
+INFO:root:2021-08-11 15:48:45.686304
+INFO:root:retrieving data from method
+INFO:root:{'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+INFO:root:Calls Offered: 16915
+INFO:root:Abandon after 30s: 2.32%
+INFO:root:FCR: 86.5%
+INFO:root:DSAT: 14.2%
+INFO:root:CSAT: 78.3%
+INFO:root:-----------------------------------------------
+INFO:root:VOC Dictionary: {'Base Size': 425, 'Promoters int': 256, 'Promoters Percent': 0.643, 'Passives int': 86, 'Passives Percent': 0.201, 'Dectractors int': 86, 'Dectractors Percent': 0.201, 'Overall NPS': 0.397, 'Sat with Agent': 0.783, 'DSat with Agent': 0.142}
+
+
+INFO:root:2021-08-11 15:58:08.782869
+INFO:root:retrieving data from method
+INFO:root:{'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+INFO:root:Calls Offered: 16915
+INFO:root:Abandon after 30s: 2.32%
+INFO:root:FCR: 86.5%
+INFO:root:DSAT: 14.2%
+INFO:root:CSAT: 78.3%
+INFO:root:-----------------------------------------------
+INFO:root:VOC Dictionary: {'Base Size': 425, 'Promoters int': 256, 'Promoters Percent': 0.643, 'Passives int': 86, 'Passives Percent': 0.201, 'Dectractors int': 86, 'Dectractors Percent': 0.201, 'Overall NPS': 0.397, 'Sat with Agent': 0.783, 'DSat with Agent': 0.142}
+
+
+WARNING:root:Something has gone wrong
+ERROR:root:Something has gone wrong
+
+INFO:root:2021-08-11 15:58:47.338341
+INFO:root:retrieving data from method
+INFO:root:{'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+INFO:root:Calls Offered: 16915
+INFO:root:Abandon after 30s: 2.32%
+INFO:root:FCR: 86.5%
+INFO:root:DSAT: 14.2%
+INFO:root:CSAT: 78.3%
+INFO:root:-----------------------------------------------
+INFO:root:VOC Dictionary: {'Base Size': 425, 'Promoters int': 256, 'Promoters Percent': 0.643, 'Passives int': 86, 'Passives Percent': 0.201, 'Dectractors int': 86, 'Dectractors Percent': 0.201, 'Overall NPS': 0.397, 'Sat with Agent': 0.783, 'DSat with Agent': 0.142}
+INFO:root:2021-08-11 16:09:55.329453
+INFO:root:retrieving data from method
+INFO:root:{'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+INFO:root:Calls Offered: 16915
+INFO:root:Abandon after 30s: 2.32%
+INFO:root:FCR: 86.5%
+INFO:root:DSAT: 14.2%
+INFO:root:CSAT: 78.3%
+INFO:root:-----------------------------------------------
+INFO:root:VOC Dictionary: {'Base Size': 425, 'Promoters int': 256, 'Promoters Percent': 0.643, 'Passives int': 86, 'Passives Percent': 0.201, 'Dectractors int': 86, 'Dectractors Percent': 0.201, 'Overall NPS': 0.397, 'Sat with Agent': 0.783, 'DSat with Agent': 0.142, 'Promoters good?': 'good', 'Passives good?': 'good', 'Dectractors good?': 'bad'}
+INFO:root:2021-08-11 16:10:32.979503
+INFO:root:retrieving data from method
+INFO:root:{'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+INFO:root:Calls Offered: 16915
+INFO:root:Abandon after 30s: 2.32%
+INFO:root:FCR: 86.5%
+INFO:root:DSAT: 14.2%
+INFO:root:CSAT: 78.3%
+INFO:root:-----------------------------------------------
+INFO:root:VOC Dictionary: {'Base Size': 425, 'Promoters int': 256, 'Promoters Percent': 0.643, 'Passives int': 86, 'Passives Percent': 0.201, 'Dectractors int': 86, 'Dectractors Percent': 0.201, 'Overall NPS': 0.397, 'Sat with Agent': 0.783, 'DSat with Agent': 0.142, 'Promoters good?': 'good', 'Passives good?': 'bad', 'Dectractors good?': 'bad'}
