@@ -79,6 +79,7 @@ try:
 
     voc_results = voc_rolling_data(file)
 
+    logging.info('-----------------------------------------------')
     logging.info(datetime.datetime.now())
     logging.info('retrieving summary rolling data from method')
     logging.info(results)
@@ -87,7 +88,6 @@ try:
     logging.info('FCR: ' + str(results['FCR'] * 100) + "%")
     logging.info('DSAT: ' + str(results['DSAT'] * 100) + "%")
     logging.info('CSAT: ' + str(results['CSAT'] * 100) + "%")
-    logging.info('-----------------------------------------------')
     logging.info('VOC Dictionary: ' + str(voc_results))
 except:
     logging.error('Something has gone wrong')
