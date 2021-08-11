@@ -80,7 +80,7 @@ try:
     voc_results = voc_rolling_data(file)
 
     logging.info(datetime.datetime.now())
-    logging.info('retrieving data from method')
+    logging.info('retrieving summary rolling data from method')
     logging.info(results)
     logging.info('Calls Offered: ' + str(results['Calls Offered']))
     logging.info('Abandon after 30s: ' + str(results['Abandon after 30s'] * 100) + "%")
